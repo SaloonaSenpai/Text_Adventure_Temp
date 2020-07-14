@@ -3,6 +3,7 @@ import item
 class Player:
     def __init__(self):
         self.inventory = [item.Rock(), item.Dagger(), 'Crusty bread', 'Gold(5)' ]
+        self.hp = 100
 
     def print_inventory(self):
         print("Inventory: ")
